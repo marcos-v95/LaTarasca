@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Titulo -->
+  <title>La Tarasca</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous" />
+
+  <!--  Hojas de estilo CSS -->
+  <link rel="stylesheet" href="css/main.css" />
+
+  <!-- Fuentes-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400;500;600&family=Great+Vibes&display=swap" rel="stylesheet">
+  
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <div id="menuIndex">
+          <a href="index.html" class="navbar-brand">
+            <img id="imageLogo" src="./assets/image/imageLogo.jpg" alt="Logo" />
+          </a>
+          <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menuNavegacion">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div id="menuNavegacion" class="collapse navbar-collapse">
+          <ul class="navbar-nav">
+            <li class="nav-item animate__animated animate__fadeIn">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item animate__animated animate__fadeIn">
+              <a href="index.html" class="nav-link">Reservas</a>
+            </li>
+            <li class="nav-item animate__animated animate__fadeIn">
+              <a href="index.html" class="nav-link">Acerca de
+              </a>
+            </li>
+            <li class="nav-item animate__animated animate__fadeIn">
+              <a href="index.html" class="nav-link">Galeria
+              </a>
+            </li>
+            <li class="nav-item animate__animated animate__fadeIn">
+              <a href="index.html" class="nav-link">Contacto
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+      <!-- Fin de navegador -->
+  </header>
+  <main>
+    <section class="container-fluid">
+      <h1>La Tarasca</h1>
+      <h2>Bienvenidos al sitema de reservas online</h2>
+      <div id="blockBienvenida" class="row">
+        <div id="blockTexto" class="col-md-6">
+          <p class="blockParrafo">En este sistema usted podra elegir los pasos de su menu y calcular el costo del mismo!</p>
+          <p class="blockParrafo">Luego de seleccionar sus preferencias y confirmar su seleccion,</p>
+          <p class="blockParrafo">usted debera llenar un formulario con sus datos personales para que despues</p>
+          <p class="blockParrafo">nos pongamos en contacto para coordinar el dia y la hora en el cual usted asistira para disfrutar de su menu personalizado!</p>
+        </div>
+        <div class="col-md-6">
+          <img id="imgMain"src="./assets/image/tarasca2.jpg" alt="">
+        </div>
+      </div>
+    </section>
+    <section id="reservasMenu" class="container-fluid">
+      <div class="row justify-content-around">
+        <h2>Nuestro Menu</h2>
+        <div class="containerMenu col-sm-10 col-md-5 col-xl-5">
+          <h3>Entradas</h3>
+          <div id="contEntradas">
+          </div>
+        </div>
+        <div class="containerMenu col-sm-10 col-md-5 col-xl-5 ">
+          <h3>Platos Principales</h3>
+          <div id="contPrincipal"></div>
+        </div>
+        <div class="containerMenu col-sm-10 col-md-5 col-xl-5">
+          <h3>Postres</h3>
+          <div id="contPostre"></div>
+        </div>
+        <div class="containerMenu col-sm-10 col-md-5 col-xl-5">
+          <h3>Bebidas</h3>
+          <div id="contBebida"></div>
+        </div>
+      </div>
+    </section>
+    <section id="secboxMenu">
+      <div id="boxMenu"></div>
+    </section>
+    <footer>
+      <p>
+        Muchas gracias por utilizar nuestra api web!
+      </p>
+    </footer>
+  </main>
+  <!-- JQuery  -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <!-- Bootstrap Js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+  <!-- Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

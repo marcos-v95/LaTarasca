@@ -1,0 +1,82 @@
+[
+    {
+        "categoria":"Entrada", 
+        "producto":"Rabas a la romana" ,
+        "precio":950
+    },
+    {
+        "categoria":"Entrada",
+        "producto":"Langostinos rebozados" ,
+        "precio":980
+    },
+    {
+        "categoria":"Entrada", 
+        "producto":"Aros de cebolla" ,
+        "precio":590
+    },
+    {
+        "categoria":"Entrada", 
+        "producto":"Papas Tarasca" ,
+        "precio":490
+    },
+    {
+        "categoria":"Principal",
+        "producto":"Cerdo al limon",
+        "precio":1120
+    },
+    {
+        "categoria":"Principal",
+        "producto":"Milanesa de pollo crispy",
+        "precio":820
+    },
+    {
+        "categoria":"Principal",
+        "producto":"Sorrentinos de osobuco",
+        "precio":790
+    },
+    {
+        "categoria":"Principal",
+        "producto":"Fideos rellenos",
+        "precio":760
+    },
+    {
+        "categoria":"Postre",
+        "producto":"Brownie con helado",
+        "precio":410
+    },
+    {
+        "categoria":"Postre",
+        "producto":"Turron aleman",
+        "precio":430
+    },
+    {
+        "categoria":"Postre",
+        "producto":"Vaso helado",
+        "precio":310
+    },
+    {
+        "categoria":"Postre",
+        "producto":"1/4 de helado",
+        "precio":350
+    },
+    {
+        "categoria":"Bebida",
+        "producto":"Cerveza artesanal",
+        "precio":250
+    },
+    {
+        "categoria":"Bebida",
+        "producto":"Gaseosa linea coca-cola",
+        "precio":150
+    },
+    {
+        "categoria":"Bebida",
+        "producto":"Agua con o sin gas",
+        "precio":125
+    },
+    {
+        "categoria":"Bebida",
+        "producto":"Vinos",
+        "precio":650
+    }
+]
